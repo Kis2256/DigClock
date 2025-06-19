@@ -1,0 +1,17 @@
+		User Manual: Device Operation Instructions
+	Mode Switching and Clock Settings via Terminal and UART Communication
+
+All device control is carried out through the terminal using UART communication.
+To switch between the three operating modes of the device, the following commands are used:
+“Time” – switches the clock to the standard time display mode.
+To exit the time display mode, press any key on the computer keyboard. The clock menu will then appear on the LCD screen and in the terminal.
+“Config” – after entering this command, the time setting mode is activated.
+Time is entered step by step using the keyboard: first hours, then minutes, and then seconds.
+If any entered value does not correspond to valid hour, minute, or second values, an error is displayed: “Invalid input!”
+“Stopwatch” – enters the stopwatch mode, where a separate submenu appears for its operation:
+“Start” – starts the stopwatch
+“Stop” – stops the stopwatch
+“Reset” – resets the stopwatch to 00:00:00:00
+“Exit” – exits the stopwatch mode and returns to the main menu.
+
+Every hour, a green LED will blink to indicate the number of hours that have passed.
